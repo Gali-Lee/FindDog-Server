@@ -1,4 +1,4 @@
-package com.cos.jwt.dao;
+package com.cos.jwt.domain.meeting;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

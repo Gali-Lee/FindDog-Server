@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cos.jwt.dao.Meeting;
+import com.cos.jwt.domain.meeting.Meeting;
+import com.cos.jwt.domain.meeting.MeetingRepository;
 import com.cos.jwt.domain.person.PersonRepository;
-import com.cos.jwt.repository.MeetingRepository;
 
 import lombok.RequiredArgsConstructor;
 
